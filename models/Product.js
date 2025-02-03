@@ -5,6 +5,7 @@ module.exports = mongoose.model('product',{
     price : Number,
     description : String,
     image : String,
-    category : String
+    category : String,
+    quantity : Number
 
 })
